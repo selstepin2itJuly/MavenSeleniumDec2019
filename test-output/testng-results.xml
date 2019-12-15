@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18967" started-at="2019-12-15T19:54:34Z" finished-at="2019-12-15T19:54:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18967" started-at="2019-12-15T19:54:34Z" finished-at="2019-12-15T19:54:53Z">
+      <class name="testcases.HRMTestCases">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.HRMTestCases@61832929]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-12-15T19:54:34Z" finished-at="2019-12-15T19:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.HRMTestCases@61832929]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-12-15T19:54:34Z" finished-at="2019-12-15T19:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.HRMTestCases@61832929]" name="beforeMethod" is-config="true" duration-ms="5123" started-at="2019-12-15T19:54:34Z" finished-at="2019-12-15T19:54:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLogin()[pri:1, instance:testcases.HRMTestCases@61832929]" name="verifyLogin" duration-ms="1029" started-at="2019-12-15T19:54:39Z" description="Login Verification" finished-at="2019-12-15T19:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.HRMTestCases@61832929]" name="afterMethod" is-config="true" duration-ms="78" started-at="2019-12-15T19:54:40Z" finished-at="2019-12-15T19:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.HRMTestCases@61832929]" name="beforeMethod" is-config="true" duration-ms="3671" started-at="2019-12-15T19:54:40Z" finished-at="2019-12-15T19:54:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateFirstLevelMenu()[pri:2, instance:testcases.HRMTestCases@61832929]" name="validateFirstLevelMenu" duration-ms="1287" started-at="2019-12-15T19:54:44Z" description="Verifying Menu Items" finished-at="2019-12-15T19:54:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFirstLevelMenu -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.HRMTestCases@61832929]" name="afterMethod" is-config="true" duration-ms="79" started-at="2019-12-15T19:54:45Z" finished-at="2019-12-15T19:54:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.HRMTestCases@61832929]" name="beforeMethod" is-config="true" duration-ms="3686" started-at="2019-12-15T19:54:45Z" finished-at="2019-12-15T19:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="second()[pri:5, instance:testcases.HRMTestCases@61832929]" name="second" duration-ms="1" started-at="2019-12-15T19:54:49Z" description="Second" finished-at="2019-12-15T19:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- second -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.HRMTestCases@61832929]" name="afterMethod" is-config="true" duration-ms="71" started-at="2019-12-15T19:54:49Z" finished-at="2019-12-15T19:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.HRMTestCases@61832929]" name="beforeMethod" is-config="true" duration-ms="3815" started-at="2019-12-15T19:54:49Z" finished-at="2019-12-15T19:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="fisrt()[pri:6, instance:testcases.HRMTestCases@61832929]" name="fisrt" duration-ms="9" started-at="2019-12-15T19:54:53Z" depends-on-methods="testcases.HRMTestCases.validateFirstLevelMenu" finished-at="2019-12-15T19:54:53Z">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method testcases.HRMTestCases.fisrt() didn't finish within the time-out 2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method testcases.HRMTestCases.fisrt() didn't finish within the time-out 2
+at java.lang.Thread.interrupt(Thread.java:919)
+at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:64)
+at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fisrt -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.HRMTestCases@61832929]" name="afterMethod" is-config="true" duration-ms="72" started-at="2019-12-15T19:54:53Z" finished-at="2019-12-15T19:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.HRMTestCases@61832929]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-12-15T19:54:53Z" finished-at="2019-12-15T19:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.HRMTestCases@61832929]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-12-15T19:54:53Z" finished-at="2019-12-15T19:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.HRMTestCases -->
+      <class name="testcases.SecondTestClass">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.SecondTestClass@5b275dab]" name="beforeSuite" is-config="true" duration-ms="11" started-at="2019-12-15T19:54:34Z" finished-at="2019-12-15T19:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="f()[pri:4, instance:testcases.SecondTestClass@5b275dab]" name="f" duration-ms="2" started-at="2019-12-15T19:54:45Z" finished-at="2019-12-15T19:54:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.SecondTestClass@5b275dab]" name="afterSuite" is-config="true" duration-ms="1" started-at="2019-12-15T19:54:53Z" finished-at="2019-12-15T19:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.SecondTestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
