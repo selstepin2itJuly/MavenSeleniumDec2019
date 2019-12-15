@@ -18,6 +18,10 @@ public class BaseClass {
 
 	public static WebDriver driver;
 	public static Properties prop;
+	/*
+	 * Initialize WebDriver
+	 * 
+	 */
 	public static WebDriver init() throws IOException {
 		String file="./src/main/java/config/config.properties";
 		FileInputStream inStream=new FileInputStream(new File(file));
